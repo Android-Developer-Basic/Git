@@ -6,6 +6,7 @@ fun main() {
     println("Add Result: ${add(2, 2)}")
     println("Subtract Result: ${subtract(4, 2)}")
     println("Multiply Result: ${multiply(2, 2)}")
+    println("Divide Result: ${divide(4, 2)}")
 }
 
 fun add(a: Int, b: Int): Int {
@@ -21,4 +22,9 @@ fun subtract(a: Int, b: Int): Int {
 fun multiply(a: Int, b: Int): Int {
     println("Multiplying $a and $b...")
     return a * b
+}
+
+fun divide(a: Int, b: Int): Int {
+    println("Dividing $a by $b...")
+    return a / b
 }

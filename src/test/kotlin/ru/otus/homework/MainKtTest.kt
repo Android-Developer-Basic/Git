@@ -18,4 +18,9 @@ class MainKtTest {
     fun `multiplies two numbers`() {
         assertEquals(4, multiply(2, 2))
     }
+
+    @Test
+    fun `divides two numbers`() {
+        assertEquals(2, divide(4, 2))
+    }
 }
