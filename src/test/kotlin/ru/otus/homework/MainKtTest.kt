@@ -23,4 +23,9 @@ class MainKtTest {
     fun `divides two numbers`() {
         assertEquals(2, divide(4, 2))
     }
+
+    @Test
+    fun `gets remainder of two numbers`() {
+        assertEquals(1, remainder(5, 2))
+    }
 }
