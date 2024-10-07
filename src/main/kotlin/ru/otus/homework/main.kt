@@ -8,7 +8,7 @@ fun main() {
     println("Multiply Result: ${multiply(2, 2)}")
     println("Divide Result: ${divide(4, 2)}")
     println("Reminder Result: ${remainder(5, 2)}")
-    println("Concat: ${concatStrings("a", "B")}")
+    println("Concat two strings: ${concatStrings("a", "B")}")
 }
 
 fun add(a: Int, b: Int): Int {
