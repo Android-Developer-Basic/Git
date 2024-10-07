@@ -13,4 +13,9 @@ class MainKtTest {
     fun `subtracts two numbers`() {
         assertEquals(2, subtract(4, 2))
     }
+
+    @Test
+    fun `multiplies two numbers`() {
+        assertEquals(4, multiply(2, 2))
+    }
 }
