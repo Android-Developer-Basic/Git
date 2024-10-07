@@ -8,4 +8,9 @@ class MainKtTest {
     fun `adds two numbers`() {
         assertEquals(4, add(2, 2))
     }
+
+    @Test
+    fun `subtracts two numbers`() {
+        assertEquals(2, subtract(4, 2))
+    }
 }
