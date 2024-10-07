@@ -9,7 +9,7 @@ fun main() {
 
 fun add(a: Int, b: Int): Int {
     println("Adding $a and $b...")
-    return a + b
+    return a + b + b
 }
 
 fun subtract(a: Int, b: Int): Int {
