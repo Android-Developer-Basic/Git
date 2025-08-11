@@ -5,5 +5,4 @@
 2. Как мы храним изменения
 3. Ветки
 4. Конфликты
-
-this is test commit
+5. this is test commit
