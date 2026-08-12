@@ -9,7 +9,12 @@ fun main() {
     println("Reminder Result: ${remainder(5, 2)}")
 
     println("Add Result")
+    foo()
 
+}
+
+fun foo() {
+    println("My name is Maksim")
 }
 
 fun add(a: Int, b: Int): Int {
